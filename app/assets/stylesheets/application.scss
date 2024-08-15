@@ -14,3 +14,28 @@
  *= require_self
  */
 
+//  External libraries
+@import "font-awesome";
+
+//Internal Import
+@import "_colors";
+
+body{
+    background-color: $background;
+    color: $font;
+    font-size: 20px;
+    word-spacing: 6px;
+    line-height: 32px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: $font;
+}
+
+
