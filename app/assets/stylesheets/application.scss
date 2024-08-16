@@ -18,14 +18,16 @@
 @import "font-awesome";
 
 //Internal Import
-@import "_colors";
+@import "_config";
 
 body{
-    background-color: $background;
-    color: $font;
+    background: $background;
+    color: $fontColor;
     font-size: 20px;
     word-spacing: 6px;
     line-height: 32px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .container{
@@ -35,7 +37,11 @@ body{
 
 a{
     text-decoration: none;
-    color: $font;
+    color: $fontColor;
+}
+
+a:hover{
+    opacity: 0.6;
 }
 
 
