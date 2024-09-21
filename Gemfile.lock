@@ -89,7 +89,7 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     erubi (1.13.0)
-    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0)
     font-awesome-sass (6.5.2)
       sassc (~> 2.0)
     globalid (1.2.1)
@@ -133,6 +133,8 @@ GEM
       net-protocol
     nio4r (2.7.3)
     nokogiri (1.16.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.7)
     psych (5.1.2)
@@ -231,6 +233,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
