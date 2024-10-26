@@ -80,8 +80,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: <%= ENV['RDS_DB_NAME'] %>
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
+  <<: *default
+  database: GreenBe_production
+  username: GreenBe
+  password: <%= ENV["GREENBE_DATABASE_PASSWORD"] %>
