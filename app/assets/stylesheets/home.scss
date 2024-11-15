@@ -10,18 +10,25 @@
     margin-bottom: 25px;
     background-position: center;
     background-size: cover;
-    background-image: image-url("banner-main.jpg");
+    background-image: image-url("wedding-greenbee-banner.jpg");
+    .logo{
+     -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+    }
     h1{
         color: white;
+        text-shadow: 3px 3px 3px #222;
+        white-space: pre-line;
+        line-height: normal
     }
     div{
-        padding: 8vh 0px ;
+        padding: 25vh 0px ;
     }
 }
 
 .sticky-cont{
-    // position: sticky;
-    // top: 30px;
+    position: sticky;
+    top: 30px;
 }
 
 .icons{
@@ -57,8 +64,39 @@
     }
 }
 
-
+.footer{
+    margin-top: 40px;
+    background-color: #10d68980;
+}
 
 .contacts{
     text-align: center;
+    width: 50%;
+    white-space: pre-line;
+    margin: auto;
+}
+// Responsiveness large phones/small pads
+
+@media (max-width: 650px) {
+    .sections-photos{
+        display: block;
+        img{
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+    } 
+}
+
+
+
+// Responsiveness small phones
+
+@media (max-width: 450px) {
+    .logo{
+        max-width: 90%;
+    }
+    h1{
+        font-size: 35px;
+    }
 }

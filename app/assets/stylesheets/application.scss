@@ -45,4 +45,23 @@ a:hover{
     opacity: 0.6;
 }
 
+//Smooth Responsiveness
+
+@media (max-width: 850px) {
+    .container{
+        width: 80% ;
+    }
+}
+
+@media (max-width: 650) {
+    .container{
+        width: 85% ;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        width: 90% ;
+    }
+}
 
