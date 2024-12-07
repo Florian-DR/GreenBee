@@ -18,7 +18,8 @@
 @import "font-awesome";
 
 //Internal Import
-@import "_config";
+@import "config";
+@import "components/navbar";
 
 body{
     background: $background;

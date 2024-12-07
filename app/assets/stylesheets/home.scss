@@ -47,7 +47,6 @@
 .img-section-hori{
     width: auto;
     height: 28em;
-    box-shadow: 3px 3px 6px 5px #5aa39e;
 }
 
 // ------ First section ------
@@ -58,6 +57,9 @@
     .section-text{
         width: 55%;
         line-height: 2em;
+    }
+    .section-image{
+        box-shadow: 3px 3px 6px 5px #5aa39e;
     }
 }
  
@@ -88,6 +90,9 @@
         width: 55%;
         text-align: end;
         line-height: 2em;
+    }
+    .section-image{
+        box-shadow: -3px 3px 6px 5px #5aa39e;
     }
 }
 
