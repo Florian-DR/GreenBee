@@ -1,10 +1,3 @@
-.section{
-    white-space: pre-line;
-    text-align: justify;
-    width: 80%;
-    margin: auto;
-}
-
 .banner{
     height: 100vh;
     margin-bottom: 25px;
@@ -35,15 +28,6 @@
     font-size: 40px;
 }
 
-#parent{
-
-}
-
-#child{
-    // position: sticky;
-    // bottom: 0;
-}
-
 .inter-section-banner{
     height: 80vh;
     width: 100%;
@@ -52,28 +36,75 @@
     background-position: center;
 }
 
-.sections-photos{
+.section{
     display: flex;
-    justify-content: center;
-    margin: 40px auto;
-    width: 90%;
-    img{
-        width: 40%;
-        height: 40%;
-        margin: 10px;
+    justify-content: space-between;
+    padding: 3em 2em !important;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-line;
+    margin: auto 10px;
+    h2, h3{
+        margin-top: 0px;
     }
 }
 
-.footer{
-    margin-top: 40px;
-    background-color: #e3ac7b80;
+.section-image{
+
+    object-fit: cover;
 }
 
-.contacts{
-    text-align: center;
-    white-space: pre-line;
-    margin: auto;
+// First section 
+
+#introduction{
+    // background-color: #7bccc7;
+    background-color: #83dbd0;
+    color: #f4f2e8;
+    .section-text{
+        width: 46%;
+    }
+
+    .section-image{
+        border-radius: 7px;
+        box-shadow: 3px 3px 6px 5px #5aa39e;
+        width: auto;
+        height: 28em;
+    }
 }
+ 
+// Second section 
+#propose{
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+    .section-text{
+        text-align: center;
+        width: 70%;
+    }
+
+    .section-image{
+        width: 96%;
+        height: auto;
+        max-height: 28em;
+    }
+}
+
+// Smooth scroll attempt
+// #parent{
+
+// }
+
+// #child{
+//     // position: sticky;
+//     // bottom: 0;
+// }
+
+
 // Responsiveness large phones/small pads
 
 @media (max-width: 650px) {

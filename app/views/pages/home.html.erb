@@ -1,42 +1,56 @@
 <% content_for :title, "GreenBee" %>
 <% content_for :description, "Page d'acceuil GreenBee - Wedding planner - Amandine Descamps" %>
 
-<div class="banner">
-    <div class="sticky-cont">
-        <%= image_tag "logo_greenBee_test.png", class: "logo" %>
-        <h1>Amandine Descamps
-             Wedding Planner</h1>
-    </div>
-</div>
-
-    <div id="parent" class="container">
-        <div id="child" class="section">
-            Faites de votre mariage la journée dont vous avez toujours rêvé. Passionnée par l'organisation et le soin du détail, je suis dédiée à transformer votre vision en réalité. Que vous souhaitiez un mariage intime ou une grande célébration, je vous accompagne à chaque étape pour créer un événement unique qui vous ressemble. Avec une attention particulière à vos souhaits et un engagement sans faille, je vous offre une expérience sur mesure pour un jour inoubliable.
-        </div>
-
-        <div class="sections-photos">
-            <%= image_tag("photo1.png") %>
-            <%= image_tag("photo2.png") %>
+<!--
+    <div class="banner">
+        <div class="sticky-cont">
+            <%= image_tag "logo_greenBee_test.png", class: "logo" %>
+            <h1>Amandine Descamps
+                Wedding Planner</h1>
         </div>
     </div>
-    <div class="inter-section-banner"></div>
+-->
+
+    <div id="introduction" class="section container">
+        <div id="child" class="section-text">
+            <h3>
+                <span style="font-size: xx-large; background: #5fbfb9; padding: 2px">Votre mariage</span>, une signature unique à votre image</h3>
+            <span> Un mariage, c’est bien plus qu’une simple organisation. 
+                C’est l’occasion de raconter <span style="font-size: xx-large; background: #5fbfb9; padding: 2px"><b>votre histoire</b></span>, de réunir vos proches autour de vos valeurs et de vivre <span style="font-size: x-large;"><b> une journée qui vous ressemble  </b></span> pleinement. 
+                
+                Mon rôle ? Être à vos côtés pour donner vie à cette vision, avec créativité, soin et bienveillance.</span>
+        </div>
+
+        <%# <div class="sections-photos"> %>
+            <%# <%= image_tag("photo1.png") %>
+        <%= image_tag("photo2.png", class: "section-image") %>
+
+        <%# </div> %>
+    </div>
+    <%# <div class="inter-section-banner"></div> %>
     
 
-    <div class="container">
-        <div class="section">
-            <b style="text-decoration: underline">Coming Soon</b>
-            Plus de détails sur nos services viendront s'ajouter à ce site. En attendant, nous sommes déjà disponibles pour organiser votre mariage. Que vous ayez besoin de conseils avisés, d'un suivi personnalisé, d'une organisation complète ou partielle de votre mariage, ou simplement d'une aide pour la décoration, je suis là pour vous. 
-            Mon objectif est de rendre chaque moment de vos préparatifs aussi agréable que possible, tout en veillant à ce que votre jour J soit absolument parfait.
+    <div id="propose" class="section container">
+        <div class="section-text">
+            <h2>Ce que je vous propose ?</h2>
+            <li><b>Un mariage qui vous ressemble</b>: Chaque détail compte pour raconter votre histoire. Ensemble, nous imaginons une journée à votre image, où chaque moment a du sens.
+            
+            </li>
+            <li><b>Une touche d’élégance et d’authenticité</b>: Passionnée par la décoration et le savoir-faire, j’aime créer des ambiances raffinées
+            
+            </li>
+            <li><b>Des services variés</b>: Je vous accompagne tout au long de l’organisation de votre mariage, ou simplement le jour J, pour faire de cette journée un moment parfait et sans stress. Si vous préférez garder le contrôle tout en ayant un soutien expert, je vous propose également un coaching personnalisé pour vous guider dans vos choix. Et si vous souhaitez une touche unique, je crée une décoration sur-mesure qui sublimera votre célébration.</li>
         </div>
 
-        <div class="sections-photos">
-            <%= image_tag("photo3.png") %>
-            <%= image_tag("photo4.png") %>
-        </div>
+        <%# <div class="sections-photos"> %>
+         <%= image_tag("wedding-greenbee-banner.jpg", class: "section-image") %>
+
+            <%# <%= image_tag("photo4.png") %>
+        <%# </div> %>
     </div>
 
     <div class="container">
-        <div class="section">
+        <div class="section-text">
             Que vous soyez au début de vos préparatifs ou que vous ayez besoin d'une touche finale, je suis à votre disposition pour vous aider à créer le mariage de vos rêves. Contactez-moi sans hésiter pour en discuter et pour commencer cette belle aventure ensemble.
         </div>
     </div>
