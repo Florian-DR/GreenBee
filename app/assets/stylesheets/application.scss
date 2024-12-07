@@ -35,6 +35,10 @@ body{
     margin: 0;
 }
 
+p{
+    white-space: pre-line;
+}
+
 a{
     text-decoration: none;
     color: $fontColor;
@@ -46,6 +50,15 @@ a:hover{
 
 h1,h2,h3,h4,h5,h6 {
     font-family: $headerFont !important
+}
+
+.container{
+    width: 80%;
+    margin:  auto;
+}
+
+ul > li {
+    white-space: pre-line;
 }
 
 //Smooth Responsiveness
