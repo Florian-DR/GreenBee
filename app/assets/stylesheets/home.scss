@@ -1,3 +1,6 @@
+//Internal Import
+@import "_config";
+
 .banner{
     height: 100vh;
     margin-bottom: 25px;
@@ -19,27 +22,10 @@
     }
 }
 
-.sticky-cont{
-    position: sticky;
-    top: 30px;
-}
-
-.icons{
-    font-size: 40px;
-}
-
-.inter-section-banner{
-    height: 80vh;
-    width: 100%;
-    background-image: image-url("section_1-banner.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .section{
     display: flex;
     justify-content: space-between;
-    padding: 3em 2em !important;
+    padding: 3em 3em !important;
 }
 
 .section-text{
@@ -54,29 +40,28 @@
 }
 
 .section-image{
-
+    border-radius: 7px;
     object-fit: cover;
 }
 
-// First section 
+.img-section-hori{
+    width: auto;
+    height: 28em;
+    box-shadow: 3px 3px 6px 5px #5aa39e;
+}
 
+// ------ First section ------
 #introduction{
     // background-color: #7bccc7;
-    background-color: #83dbd0;
+    background-color: $backgroundSection;
     color: #f4f2e8;
     .section-text{
-        width: 46%;
-    }
-
-    .section-image{
-        border-radius: 7px;
-        box-shadow: 3px 3px 6px 5px #5aa39e;
-        width: auto;
-        height: 28em;
+        width: 55%;
+        line-height: 2em;
     }
 }
  
-// Second section 
+// ------ Second section ------
 #propose{
     flex-direction: column;
     align-items: center;
@@ -88,9 +73,21 @@
     }
 
     .section-image{
-        width: 96%;
+        width: 70%;
         height: auto;
         max-height: 28em;
+        box-shadow: 0px 3px 6px 5px gray;
+    }
+}
+
+// ------ Third section ------
+#presentation{
+    background-color: $backgroundSection;
+    color: #f4f2e8;
+    .section-text{
+        width: 55%;
+        text-align: end;
+        line-height: 2em;
     }
 }
 
@@ -102,6 +99,19 @@
 // #child{
 //     // position: sticky;
 //     // bottom: 0;
+// }
+
+// .inter-section-banner{
+//     height: 80vh;
+//     width: 100%;
+//     background-image: image-url("section_1-banner.jpg");
+//     background-size: cover;
+//     background-position: center;
+// }
+
+// .sticky-cont{
+//     position: sticky;
+//     top: 30px;
 // }
 
 
