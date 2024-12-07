@@ -20,6 +20,7 @@
 //Internal Import
 @import "config";
 @import "components/navbar";
+@import "components/footer";
 
 body{
     background: $background;
@@ -34,11 +35,6 @@ body{
     margin: 0;
 }
 
-// .container{
-//     width: 90%;
-//     // padding: auto;
-// }
-
 a{
     text-decoration: none;
     color: $fontColor;
@@ -50,23 +46,6 @@ a:hover{
 
 h1,h2,h3,h4,h5,h6 {
     font-family: $headerFont !important
-}
-
-// Footer
-
-.footer{
-    margin-top: 40px;
-    background-color: #e3ac7b80;
-}
-
-.contacts{
-    text-align: center;
-    white-space: pre-line;
-    margin: auto;
-}
-
-.icons{
-    font-size: 40px;
 }
 
 //Smooth Responsiveness

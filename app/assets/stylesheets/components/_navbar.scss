@@ -1,5 +1,6 @@
 #navbar{
     background: linear-gradient(#83dbd0, #5fbfb9);
+        // background: linear-gradient( #5fbfb9, #83dbd0);
     display: flex;
     padding: 10px 3em;
     justify-content: space-around;
@@ -15,4 +16,9 @@
         max-height: 3em;
         width: 11em;
     }
+}
+
+.logo-link{
+    max-height: 3em;
+    display: block;
 }
