@@ -1,0 +1,18 @@
+@import "config";
+
+.button{
+    background-color: $darkBg;
+    border-radius: $radius;
+    padding: 15px;
+    transition: 0.5s;
+    color: white;
+    max-width: fit-content;
+    &:hover{
+        font-size: larger;
+        padding: 20px;
+        background-color: $lighBg;
+        opacity: 1 !important;
+        transition: 0.7s;
+        border: 2px solid $darkBg;
+    }
+}

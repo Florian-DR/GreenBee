@@ -1,5 +1,7 @@
+@import "config";
+
 #footer{
-    background: linear-gradient(#5fbfb9, #83dbd0);
+    background: linear-gradient($darkBg, $lighBg);
     // background: linear-gradient(#83dbd0, #5fbfb9) !important;
 }
 

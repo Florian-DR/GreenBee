@@ -1,5 +1,7 @@
+@import "config";
+
 #navbar{
-    background: linear-gradient(#83dbd0, #5fbfb9);
+    background: linear-gradient($darkBg, $lighBg);
         // background: linear-gradient( #5fbfb9, #83dbd0);
     display: flex;
     padding: 10px 3em;
@@ -11,7 +13,7 @@
         list-style: none;
     }
     img{
-        border-radius: 7px;
+        border-radius: $radius;
         object-fit: cover;
         max-height: 3em;
         width: 11em;

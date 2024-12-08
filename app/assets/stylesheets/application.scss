@@ -19,8 +19,6 @@
 
 //Internal Import
 @import "config";
-@import "components/navbar";
-@import "components/footer";
 
 body{
     background: $background;
@@ -28,6 +26,7 @@ body{
     font-size: 20px;
     word-spacing: 6px;
     line-height: 32px;
+    scroll-behavior: smooth;
     // text-align: center;
     font-family: "Libre Caslon Text", serif, sans-serif;
     // font-family: Moderustic, sans-serif;
@@ -45,7 +44,7 @@ a{
 }
 
 a:hover{
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 h1,h2,h3,h4,h5,h6 {

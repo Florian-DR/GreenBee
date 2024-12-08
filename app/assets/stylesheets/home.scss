@@ -40,7 +40,7 @@
 }
 
 .section-image{
-    border-radius: 7px;
+    border-radius: $radius;
     object-fit: cover;
 }
 
@@ -52,7 +52,7 @@
 // ------ First section ------
 #introduction{
     // background-color: #7bccc7;
-    background-color: $backgroundSection;
+    background-color: $lighBg;
     color: #f4f2e8;
     .section-text{
         width: 55%;
@@ -84,9 +84,11 @@
 
 // ------ Third section ------
 #presentation{
-    background-color: $backgroundSection;
+    background-color: $lighBg;
     color: #f4f2e8;
     .section-text{
+        align-items: end;
+        gap: 1em;
         width: 55%;
         text-align: end;
         line-height: 2em;
