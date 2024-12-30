@@ -41,10 +41,13 @@ p{
 a{
     text-decoration: none;
     color: $fontColor;
+    transition: 0.5s;
 }
 
 a:hover{
     opacity: 0.7;
+    transition: 0.7s;
+    font-size: larger;
 }
 
 h1,h2,h3,h4,h5,h6 {

@@ -2,7 +2,7 @@
 
 #navbar{
     background: linear-gradient($darkBg, $lighBg);
-        // background: linear-gradient( #5fbfb9, #83dbd0);
+    // background: linear-gradient( $lighBg, $darkBg);
     display: flex;
     padding: 10px 3em;
     justify-content: space-around;
@@ -17,6 +17,9 @@
         object-fit: cover;
         max-height: 3em;
         width: 11em;
+    }
+    a{
+        color: $background !important;
     }
 }
 
