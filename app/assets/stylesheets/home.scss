@@ -12,7 +12,7 @@
     filter: drop-shadow(3px 3px 3px #222);
     }
     h1{
-        color: white;
+        color: $background;
         text-shadow: 3px 3px 3px #222;
         white-space: pre-line;
         line-height: normal
@@ -53,13 +53,13 @@
 #introduction{
     // background-color: #7bccc7;
     background-color: $lighBg;
-    color: #f4f2e8;
+    color: $background;
     .section-text{
         width: 55%;
         line-height: 2em;
     }
     .section-image{
-        box-shadow: 3px 3px 6px 5px #5aa39e;
+        box-shadow: 3px 3px 6px 5px $darkBg;
     }
 }
  
@@ -85,7 +85,7 @@
 // ------ Third section ------
 #presentation{
     background-color: $darkBg;
-    color: #f4f2e8;
+    color: $background;
     .section-text{
         align-items: end;
         gap: 1em;
@@ -94,7 +94,7 @@
         line-height: 2em;
     }
     .section-image{
-        box-shadow: -3px 3px 6px 5px #5aa39e;
+        box-shadow: -3px 3px 6px 5px $darkBg;
     }
 }
 
