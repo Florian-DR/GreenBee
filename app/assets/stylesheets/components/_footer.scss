@@ -1,12 +1,10 @@
 @import "config";
 
 #footer{
-    background: linear-gradient($darkBg, $lighBg);
-    color: $background !important;
-    a{
-        color: $background !important;
+    background-color: $background;
+    a:hover{
+       font-size: large;
     }
-    // background: linear-gradient(#83dbd0, #5fbfb9) !important;
 }
 
 .contacts{

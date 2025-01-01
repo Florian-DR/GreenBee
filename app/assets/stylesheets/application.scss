@@ -27,10 +27,8 @@ body{
     word-spacing: 6px;
     line-height: 32px;
     scroll-behavior: smooth;
-    // text-align: center;
-    font-family: "Libre Caslon Text", serif, sans-serif;
-    // font-family: Moderustic, sans-serif;
-    // font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: $fontFamily;
+
     margin: 0;
 }
 

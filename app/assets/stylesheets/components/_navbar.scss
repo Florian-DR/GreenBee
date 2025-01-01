@@ -1,8 +1,8 @@
 @import "config";
 
 #navbar{
-    background: linear-gradient($darkBg, $lighBg);
-    // background: linear-gradient( $lighBg, $darkBg);
+    // background: linear-gradient($darkBg, $lighBg);
+    background-color: $background;
     display: flex;
     padding: 10px 3em;
     justify-content: space-around;
@@ -17,9 +17,6 @@
         object-fit: cover;
         max-height: 3em;
         width: 11em;
-    }
-    a{
-        color: $background !important;
     }
 }
 
