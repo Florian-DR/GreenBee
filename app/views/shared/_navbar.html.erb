@@ -1,8 +1,8 @@
-<nav id="navbar">
-    <li><a href="/services">Services</a></li>
-    <li><a href="/coaching">Coaching</a></li>
-    <li><a href="/vision">Vision</a></li>
-    <li><a href="/" class="logo-link"><%= image_tag "logo_short.png", class: "logo" %></a></li>
-    <li><a href="/about">À propos</a></li>
-    <li><a href="/contact">Contact</a></li>
+<nav id="navbar" data-controller="nav-link">
+    <li><a href="/services" data-nav-link-target="link">Services</a></li>
+    <li><a href="/coaching" data-nav-link-target="link">Coaching</a></li>
+    <li><a href="/vision" data-nav-link-target="link">Vision</a></li>
+    <li><a href="/" class="logo-link" data-nav-link-target="link"><%= image_tag "logo_short.png", class: "logo" %></a></li>
+    <li><a href="/about" data-nav-link-target="link">À propos</a></li>
+    <li><a href="/contact" data-nav-link-target="link">Contact</a></li>
 </nav>

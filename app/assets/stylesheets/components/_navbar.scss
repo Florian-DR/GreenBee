@@ -24,3 +24,8 @@
     max-height: 3em;
     display: block;
 }
+
+.active-link{
+    color: $activeColor !important;
+    border-bottom: 1px solid $activeColor;
+}
