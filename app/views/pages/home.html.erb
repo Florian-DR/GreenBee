@@ -1,28 +1,15 @@
 <% content_for :title, "Signature" %>
 <% content_for :description, "Page d'acceuil Signature - Wedding planner - Amandine Descamps" %>
 
-<!--
-    <div class="banner">
-        <div class="sticky-cont">
-            <%= image_tag "logo_greenBee_test.png", class: "logo" %>
-            <h1>Amandine Descamps
-                Wedding Planner</h1>
-        </div>
-    </div>
--->
-
-
 <!------ Introduction ------>
 
     <div id="introduction" class="section">
         <div id="child" class="section-text">
-            <h3>
-                <span style="font-size: xx-large">Votre mariage</span>, une signature unique à votre image.</h3>
-                    <span> Un mariage, c’est bien plus qu’une simple organisation. 
-                    C’est l’occasion de raconter <span style="font-size: xx-large;"><b>votre histoire</b></span>, de réunir vos proches autour de vos valeurs et de vivre <span style="font-size: x-large;"><b> une journée qui vous ressemble</b></span> pleinement. 
-                    
-                    Mon rôle ? Être à vos côtés pour donner vie à cette vision, avec créativité, soin et bienveillance.
-                </span>
+            <h1>Votre mariage, une signature unique à votre image.</h1>
+                Un mariage, c’est bien plus qu’une simple organisation. 
+                C’est l’occasion de raconter votre histoire, de réunir vos proches autour de vos valeurs et de vivre une journée qui vous ressemble pleinement. 
+                
+                Mon rôle ? Être à vos côtés pour donner vie à cette vision, avec créativité, soin et bienveillance.
         </div>
         <%= image_tag("photo2.png", class: "section-image img-section-hori") %>
     </div>
@@ -31,17 +18,31 @@
 <!------ Mes services ------>
 
     <div id="propose" class="section">
-        <div class="section-text">
-            <h2>Ce que je vous propose ?</h2>
-            <li><b>Un mariage qui vous ressemble</b>: Chaque détail compte pour raconter votre histoire. Ensemble, nous imaginons une journée à votre image, où chaque moment a du sens.
+        <h2>Ce que je vous propose ?</h2>
+
+        <div class="section-text cards">
+            <%# <li><b>Un mariage qui vous ressemble</b>: Chaque détail compte pour raconter votre histoire. Ensemble, nous imaginons une journée à votre image, où chaque moment a du sens. %>
+            <div class="card">
+                <div class="card-title">Un mariage qui vous ressemble</div>
+                <div class="card-content">Chaque détail compte pour raconter votre histoire. Ensemble, nous imaginons une journée à votre image, où chaque moment a du sens.</div>
+            </div>
+
+            <div class="card middle-card">
+                <div class="card-title">Une touche d’élégance et d’authenticité</div>
+                <div class="card-content">Passionnée par la décoration et le savoir-faire, j’aime créer des ambiances raffinées</div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Des services variés</div>
+                <div class="card-content">Je vous accompagne tout au long de l’organisation de votre mariage, ou simplement le jour J, pour faire de cette journée un moment parfait et sans stress.</div>
+            </div>
+
+            <%# <li><b>Une touche d’élégance et d’authenticité</b>: Passionnée par la décoration et le savoir-faire, j’aime créer des ambiances raffinées %>
             
-            </li>
-            <li><b>Une touche d’élégance et d’authenticité</b>: Passionnée par la décoration et le savoir-faire, j’aime créer des ambiances raffinées
-            
-            </li>
-            <li><b>Des services variés</b>: Je vous accompagne tout au long de l’organisation de votre mariage, ou simplement le jour J, pour faire de cette journée un moment parfait et sans stress. 
+        
+            <%# <li><b>Des services variés</b>: Je vous accompagne tout au long de l’organisation de votre mariage, ou simplement le jour J, pour faire de cette journée un moment parfait et sans stress. 
             Si vous préférez garder le contrôle tout en ayant un soutien expert, je vous propose également un coaching personnalisé pour vous guider dans vos choix. 
-            Et si vous souhaitez une touche unique, je crée une décoration sur-mesure qui sublimera votre célébration.</li>
+            Et si vous souhaitez une touche unique, je crée une décoration sur-mesure qui sublimera votre célébration.</li> %>
         </div>
         <%= link_to "Mes services", services_path(), class: "button" %>
          <%= image_tag("wedding-greenbee-banner.jpg", class: "section-image") %>
@@ -56,9 +57,11 @@
 
         <div class="section-text">
             <h2>Qui suis-je ?</h2>
-                <div>Je suis une <span style="font-size: xx-large"><b>passionnée</b></span> des belles histoires, des petits détails qui marquent les esprits et des mariages où chaque moment fait sens. 
-                Portée par les <span style="font-size: xx-large">rencontres authentiques</span> et les jolies choses bien faites, j’ai choisi de la mettre au service des <b style="font-size: x-large;">couples qui rêvent d’une journée unique et élégante</b>.
-                Depuis dix ans, l’organisation d’évènements est ma passion et c’est avec ma rigueur et une touche de bonne humeur que je vous <span style="font-size: xx-large;">accompagne avec bienveillance</span> dans cette belle aventure.</div>
+                <div>Je suis une passionnée des belles histoires, des petits détails qui marquent les esprits et des mariages où chaque moment fait sens. 
+                    
+                Portée par les rencontres authentiques et les jolies choses bien faites, j’ai choisi de la mettre au service des couples qui rêvent d’une journée unique et élégante.
+
+                Depuis dix ans, l’organisation d’évènements est ma passion et c’est avec ma rigueur et une touche de bonne humeur que je vous accompagne avec bienveillance dans cette belle aventure.</div>
             <%= link_to "En savoir plus", about_path(), class: "button" %>
 
         </div>

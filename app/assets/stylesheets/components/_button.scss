@@ -1,17 +1,17 @@
 @import "config";
 
 .button{
-    background-color: $darkBg;
+    background-color: $lighBg;
     border-radius: $radius;
     padding: 15px;
     transition: 0.5s;
-    color: white;
+    color: $fontColor;
     max-width: fit-content;
-    border: 1px solid $background;
+    box-shadow: 0px 1px 5px 1px $boxShadowColor;
     &:hover{
         font-size: larger;
         padding: 20px;
-        background-color: $lighBg;
+        background-color: $darkBg;
         opacity: 1 !important;
         transition: 0.7s;
     }
